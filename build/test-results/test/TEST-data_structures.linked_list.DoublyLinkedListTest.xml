@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="data_structures.linked_list.DoublyLinkedListTest" tests="20" skipped="0" failures="0" errors="0" timestamp="2020-06-19T09:10:24" hostname="MacBook-Pro-Nikolaev.local" time="1.307">
+  <properties/>
+  <testcase name="testRandomizedRemoveAt" classname="data_structures.linked_list.DoublyLinkedListTest" time="0.24"/>
+  <testcase name="testRandomizedRemoving" classname="data_structures.linked_list.DoublyLinkedListTest" time="0.771"/>
+  <testcase name="testPeekFirst" classname="data_structures.linked_list.DoublyLinkedListTest" time="0.0"/>
+  <testcase name="testAddLast" classname="data_structures.linked_list.DoublyLinkedListTest" time="0.0"/>
+  <testcase name="testAddAt" classname="data_structures.linked_list.DoublyLinkedListTest" time="0.0"/>
+  <testcase name="testClear" classname="data_structures.linked_list.DoublyLinkedListTest" time="0.001"/>
+  <testcase name="testPeeking" classname="data_structures.linked_list.DoublyLinkedListTest" time="0.0"/>
+  <testcase name="testToString" classname="data_structures.linked_list.DoublyLinkedListTest" time="0.0"/>
+  <testcase name="testRemoveFirst" classname="data_structures.linked_list.DoublyLinkedListTest" time="0.0"/>
+  <testcase name="testRandomizedIndexOf" classname="data_structures.linked_list.DoublyLinkedListTest" time="0.287"/>
+  <testcase name="testEmptyList" classname="data_structures.linked_list.DoublyLinkedListTest" time="0.0"/>
+  <testcase name="testRemoveFirstOfEmpty" classname="data_structures.linked_list.DoublyLinkedListTest" time="0.0"/>
+  <testcase name="testAddFirst" classname="data_structures.linked_list.DoublyLinkedListTest" time="0.001"/>
+  <testcase name="testRemoveLastOfEmpty" classname="data_structures.linked_list.DoublyLinkedListTest" time="0.0"/>
+  <testcase name="testRemoveAt" classname="data_structures.linked_list.DoublyLinkedListTest" time="0.0"/>
+  <testcase name="testRemoving" classname="data_structures.linked_list.DoublyLinkedListTest" time="0.001"/>
+  <testcase name="testRemoveLast" classname="data_structures.linked_list.DoublyLinkedListTest" time="0.0"/>
+  <testcase name="testPeekLastOfEmpty" classname="data_structures.linked_list.DoublyLinkedListTest" time="0.0"/>
+  <testcase name="testPeekLast" classname="data_structures.linked_list.DoublyLinkedListTest" time="0.0"/>
+  <testcase name="testPeekFirstOfEmpty" classname="data_structures.linked_list.DoublyLinkedListTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
