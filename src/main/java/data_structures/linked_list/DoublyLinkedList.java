@@ -1,6 +1,5 @@
 package data_structures.linked_list;
 
-import java.util.LinkedList;
 
 public class DoublyLinkedList<T> implements Iterable<T> {
     private int size = 0;
