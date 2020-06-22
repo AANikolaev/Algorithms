@@ -90,3 +90,5 @@ src/main/kotlin/
 src/main/resources/
 src/test/kotlin/
 src/test/resources/
+
+.idea/
