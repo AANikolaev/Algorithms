@@ -86,9 +86,7 @@ fabric.properties
 .idea/caches/build_file_checksums.ser
 
 .gitignore
-src/main/kotlin/
 src/main/resources/
-src/test/kotlin/
 src/test/resources/
 
 .idea/
