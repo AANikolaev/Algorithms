@@ -11,3 +11,5 @@
 * [Tree](https://github.com/AANikolaev/Algorithms/tree/master/src/main/java/data_structures/tree)
   * [AVL Tree](https://github.com/AANikolaev/Algorithms/tree/master/src/main/java/data_structures/tree/avl_tree)
   * [Red-Black Tree](https://github.com/AANikolaev/Algorithms/tree/master/src/main/java/data_structures/tree/red_black_tree)
+
+# Sorting algorithms
