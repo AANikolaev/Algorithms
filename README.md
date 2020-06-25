@@ -13,3 +13,5 @@
   * [Red-Black Tree](https://github.com/AANikolaev/Algorithms/tree/master/src/main/java/data_structures/tree/red_black_tree)
 
 # Sorting algorithms
+* [Bubble sort](https://github.com/AANikolaev/Algorithms/tree/master/src/main/kotlin/algorithms/sorting/bubble_sort)
+* [Quicksort](https://github.com/AANikolaev/Algorithms/tree/master/src/main/kotlin/algorithms/sorting/quick_sort)
