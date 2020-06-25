@@ -1,5 +1,7 @@
 package algorithms.sorting
 
+import algorithms.sorting.bubble_sort.BubbleSort
+import algorithms.sorting.quick_sort.QuickSort
 import com.google.common.truth.Truth.assertThat
 import org.junit.Test
 import java.util.*
@@ -13,7 +15,8 @@ import java.util.*
 // doesn't play well with negative numbers, etc..
 class SortingTest {
     internal enum class SortingAlgorithm(val sortingAlgorithm: InplaceSort) {
-        BUBBLE_SORT(BubbleSort())
+        BUBBLE_SORT(BubbleSort()),
+        QUICK_SORT(QuickSort()),
     }
 
     @Test
@@ -46,7 +49,8 @@ class SortingTest {
 
     companion object {
         private val sortingAlgorithms = EnumSet.of(
-            SortingAlgorithm.BUBBLE_SORT
+            SortingAlgorithm.BUBBLE_SORT,
+            SortingAlgorithm.QUICK_SORT
         )
     }
 
