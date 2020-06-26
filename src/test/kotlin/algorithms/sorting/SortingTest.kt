@@ -6,6 +6,7 @@ import algorithms.sorting.heap_sort.Heapsort
 import algorithms.sorting.insertion_sort.InsertionSort
 import algorithms.sorting.merge_sort.MergeSort
 import algorithms.sorting.quick_sort.QuickSort
+import algorithms.sorting.radix_sort.RadixSort
 import algorithms.sorting.selection_sort.SelectionSort
 import com.google.common.truth.Truth.assertThat
 import org.junit.Test
@@ -27,6 +28,7 @@ class SortingTest {
         MERGE_SORT(MergeSort()),
         HEAP_SORT(Heapsort()),
         COUNTING_SORT(CountingSort()),
+        RADIX_SORT(RadixSort())
     }
 
     @Test
@@ -47,6 +49,9 @@ class SortingTest {
     fun verifySortingAlgorithms_smallNegativeIntegersOnly() {
         for (size in 0..999) {
             for (algorithm in sortingAlgorithms) {
+                if (algorithm == SortingAlgorithm.RADIX_SORT) {
+                    continue
+                }
                 val sorter = algorithm.sortingAlgorithm
                 val values: IntArray = randomIntegerArray(size, -50, 51)
                 val copy = values.clone()
@@ -64,7 +69,8 @@ class SortingTest {
         SortingAlgorithm.INSERTION_SORT,
         SortingAlgorithm.MERGE_SORT,
         SortingAlgorithm.HEAP_SORT,
-        SortingAlgorithm.COUNTING_SORT
+        SortingAlgorithm.COUNTING_SORT,
+        SortingAlgorithm.RADIX_SORT
     )
 
     // Generates an array of random values where every number is between
