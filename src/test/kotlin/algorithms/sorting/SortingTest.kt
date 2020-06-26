@@ -1,6 +1,7 @@
 package algorithms.sorting
 
 import algorithms.sorting.bubble_sort.BubbleSort
+import algorithms.sorting.insertion_sort.InsertionSort
 import algorithms.sorting.quick_sort.QuickSort
 import algorithms.sorting.selection_sort.SelectionSort
 import com.google.common.truth.Truth.assertThat
@@ -18,7 +19,8 @@ class SortingTest {
     internal enum class SortingAlgorithm(val sortingAlgorithm: InplaceSort) {
         BUBBLE_SORT(BubbleSort()),
         QUICK_SORT(QuickSort()),
-        SELECTION_SORT(SelectionSort())
+        SELECTION_SORT(SelectionSort()),
+        INSERTION_SORT(InsertionSort()),
     }
 
     @Test
@@ -52,7 +54,8 @@ class SortingTest {
     private val sortingAlgorithms = EnumSet.of(
         SortingAlgorithm.BUBBLE_SORT,
         SortingAlgorithm.QUICK_SORT,
-        SortingAlgorithm.SELECTION_SORT
+        SortingAlgorithm.SELECTION_SORT,
+        SortingAlgorithm.INSERTION_SORT
     )
 
     // Generates an array of random values where every number is between
