@@ -16,7 +16,7 @@ class QuickSort : InplaceSort {
     // Sort interval [lo, hi] inplace recursively
     private fun quickSort(ar: IntArray, lo: Int, hi: Int) {
         if (lo < hi) {
-            val splitPoint = partition(ar, lo, hi)
+            val splitPoint: Int = partition(ar, lo, hi)
             quickSort(ar, lo, splitPoint)
             quickSort(ar, splitPoint + 1, hi)
         }
