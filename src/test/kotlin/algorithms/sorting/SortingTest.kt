@@ -2,6 +2,7 @@ package algorithms.sorting
 
 import algorithms.sorting.bubble_sort.BubbleSort
 import algorithms.sorting.insertion_sort.InsertionSort
+import algorithms.sorting.merge_sort.MergeSort
 import algorithms.sorting.quick_sort.QuickSort
 import algorithms.sorting.selection_sort.SelectionSort
 import com.google.common.truth.Truth.assertThat
@@ -21,6 +22,7 @@ class SortingTest {
         QUICK_SORT(QuickSort()),
         SELECTION_SORT(SelectionSort()),
         INSERTION_SORT(InsertionSort()),
+        MERGE_SORT(MergeSort()),
     }
 
     @Test
@@ -55,7 +57,8 @@ class SortingTest {
         SortingAlgorithm.BUBBLE_SORT,
         SortingAlgorithm.QUICK_SORT,
         SortingAlgorithm.SELECTION_SORT,
-        SortingAlgorithm.INSERTION_SORT
+        SortingAlgorithm.INSERTION_SORT,
+        SortingAlgorithm.MERGE_SORT
     )
 
     // Generates an array of random values where every number is between
