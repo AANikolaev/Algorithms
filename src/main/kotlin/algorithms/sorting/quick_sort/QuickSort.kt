@@ -8,7 +8,7 @@ class QuickSort : InplaceSort {
         quickSort(values)
     }
 
-    fun quickSort(ar: IntArray?) {
+    private fun quickSort(ar: IntArray?) {
         if (ar == null) return
         quickSort(ar, 0, ar.size - 1)
     }

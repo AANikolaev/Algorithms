@@ -1,6 +1,7 @@
 package algorithms.sorting
 
 import algorithms.sorting.bubble_sort.BubbleSort
+import algorithms.sorting.heap_sort.Heapsort
 import algorithms.sorting.insertion_sort.InsertionSort
 import algorithms.sorting.merge_sort.MergeSort
 import algorithms.sorting.quick_sort.QuickSort
@@ -23,6 +24,7 @@ class SortingTest {
         SELECTION_SORT(SelectionSort()),
         INSERTION_SORT(InsertionSort()),
         MERGE_SORT(MergeSort()),
+        HEAP_SORT(Heapsort()),
     }
 
     @Test
@@ -58,7 +60,8 @@ class SortingTest {
         SortingAlgorithm.QUICK_SORT,
         SortingAlgorithm.SELECTION_SORT,
         SortingAlgorithm.INSERTION_SORT,
-        SortingAlgorithm.MERGE_SORT
+        SortingAlgorithm.MERGE_SORT,
+        SortingAlgorithm.HEAP_SORT
     )
 
     // Generates an array of random values where every number is between
