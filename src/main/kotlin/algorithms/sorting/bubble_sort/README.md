@@ -10,6 +10,8 @@ indicates that the list is sorted.
 
 ![Algorithm Visualization](https://upload.wikimedia.org/wikipedia/commons/c/c8/Bubble-sort-example-300px.gif)
 
+![Algorithm Visualization 2](https://upload.wikimedia.org/wikipedia/commons/5/54/Sorting_bubblesort_anim.gif)
+
 ## Complexity
 
 | Name                  | Best            | Average             | Worst               | Memory    | Stable    | Comments  |
