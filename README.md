@@ -19,6 +19,7 @@
 * [Insertion sort](https://github.com/AANikolaev/Algorithms/tree/master/src/main/kotlin/algorithms/sorting/insertion_sort)
 * [Merge sort](https://github.com/AANikolaev/Algorithms/tree/master/src/main/kotlin/algorithms/sorting/merge_sort)
 * [Heap sort](https://github.com/AANikolaev/Algorithms/tree/master/src/main/kotlin/algorithms/sorting/heap_sort)
+* [Counting sort](https://github.com/AANikolaev/Algorithms/tree/master/src/main/kotlin/algorithms/sorting/counting_sort)
 
 
 ## Useful Information
